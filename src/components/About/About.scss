@@ -1,0 +1,36 @@
+.About{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    transition: all .3s;
+    &-content{
+        margin: auto;
+        position: relative;
+        width: 95%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all .3s;
+        p{
+            width:80%;
+            font-size:20px;
+            line-height: 35px;
+            transition: all .3s;
+            span{
+                color:#50B2C0;
+
+               &.impo{
+                    color:#3376bc;
+                    font-weight: 500;
+               }
+            }
+            a{
+                color:#3376bc;
+                    font-weight: 500;
+            }
+        }
+    }
+}

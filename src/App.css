@@ -1,0 +1,52 @@
+.App {
+  background-color: #000;
+  scroll-behavior: smooth;
+}
+
+.App-content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 30% auto;
+      grid-template-columns: 30% auto;
+}
+
+@media (max-width: 768px) {
+  .App-content {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+}
+
+.App-left {
+  background-color: rgba(0, 0, 0, 0.561);
+}
+
+.App-right {
+  border-radius: 20px;
+  border: 1px solid #000;
+  margin: 5px 0;
+  background-color: #fff;
+}
+
+@-webkit-keyframes App-logo-spin {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+/*# sourceMappingURL=App.css.map */

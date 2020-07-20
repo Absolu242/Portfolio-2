@@ -1,0 +1,32 @@
+.App {
+  background-color:  #000;
+  scroll-behavior: smooth;
+  &-content {
+    display: grid;
+    grid-template-columns: 30% auto;
+
+    @media(max-width:768px){
+      grid-template-columns: 1fr;
+    }
+  }
+
+  &-left{
+    background-color: rgba(0, 0, 0, 0.561);
+  }
+
+  &-right{
+    border-radius:20px;
+   border: 1px solid #000;
+   margin:5px 0;
+   background-color: #fff;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

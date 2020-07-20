@@ -1,0 +1,56 @@
+.About {
+  position: relative;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.About-content {
+  margin: auto;
+  position: relative;
+  width: 95%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.About-content p {
+  width: 80%;
+  font-size: 20px;
+  line-height: 35px;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.About-content p span {
+  color: #50B2C0;
+}
+
+.About-content p span.impo {
+  color: #3376bc;
+  font-weight: 500;
+}
+
+.About-content p a {
+  color: #3376bc;
+  font-weight: 500;
+}
+/*# sourceMappingURL=About.css.map */
